@@ -1,0 +1,130 @@
+body {
+    background-color: #f0f0f0;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #32CD32;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #333333;
+    color: #32CD32;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+}
+
+.name {
+    color: #32CD32;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.buttons .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #32CD32;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.buttons .btn:hover {
+    background-color: #228B22;
+}
+
+.image img {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+}
+
+section {
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+section:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+h2 {
+    color: #32CD32;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project, .blog {
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #32CD32;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #228B22;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333333;
+    color: #ffffff;
+}
